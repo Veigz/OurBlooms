@@ -62,13 +62,7 @@ function Home(){
                 <p className='paragraph1'> Whether it’s a private retreat or a public space, we craft floral experiences that bloom beyond expectations. </p>
                 <hr/>
 
-
-               
-            </div> <picture>
-                <source media='(min-width:1200px)' srcSet={mid3}/>
-                <source media='(min-width:800px)' srcSet={mid2}/>
-                <img src={mid1}/>
-            </picture>
+            </div> 
            
             <div className='section1'>
                 <p className='heading1'> 3 </p>
@@ -77,6 +71,12 @@ function Home(){
                 <p className='paragraph1'> Your vision, our blooms. We build arrangements that are both personal and exquisitely simple. Whether it’s a private retreat or a public space, we craft floral experiences that bloom beyond expectations. </p>
                 <hr/>
             </div>
+
+            <picture>
+                <source media='(min-width:1200px)' srcSet={mid3}/>
+                <source media='(min-width:800px)' srcSet={mid2}/>
+                <img src={mid1}/>
+            </picture>
 
 
             <WorkWithUs />           
