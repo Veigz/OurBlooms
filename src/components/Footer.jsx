@@ -1,6 +1,6 @@
-import cfooter from '../assets/footer/cfooter.png'
-import mfooter from '../assets/footer/mfooter.png'
-import tfooter from '../assets/footer/tfooter.png'
+import cfooter from '../assets/Footer/cfooter.png'
+import mfooter from '../assets/Footer/mfooter.png'
+import tfooter from '../assets/Footer/tfooter.png'
 
 
 function Footer(){
